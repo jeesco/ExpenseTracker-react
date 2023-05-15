@@ -18,7 +18,7 @@ function App() {
               <Balance />
               <TransactionForm />
             </div>
-            <div className="">
+            <div className="last-section">
               <ExpenseChart />
               <TransactionList />
             </div>
