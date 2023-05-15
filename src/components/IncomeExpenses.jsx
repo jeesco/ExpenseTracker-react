@@ -14,17 +14,20 @@ function IncomeExpenses() {
                     .reduce((acc, item) => (acc += item), 0) * -1
 
   return (
-    <>
-      <div className="flex justify-between my-2">
+    <div className="incomeExpenses-container">
+      <div className="">
         <h4>Incomes:</h4>
         <p>${income}</p>
       </div>
-      <div className="flex justify-between my-2">
+      <div className="">
         <h4>Expenses:</h4>
         <p>${expense}</p>
       </div>
-    </>
+    </div>
   )
 }
 
 export default IncomeExpenses
+
+
+// 2divs flex justify-between my-2

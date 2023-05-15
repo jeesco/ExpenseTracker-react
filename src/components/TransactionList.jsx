@@ -6,7 +6,7 @@ function TransactionList() {
 
   return (
     <>
-      <h3 className="text-slate-300 text-xl font-bold w-full ">Transactions History</h3>
+      <h3 className="">Transactions History</h3>
       <ul>
         {
           transactions.map(transaction => (
@@ -19,3 +19,5 @@ function TransactionList() {
 }
 
 export default TransactionList
+
+// h3 text-slate-300 text-xl font-bold w-full
